@@ -40,6 +40,9 @@ const LoginForm = ({ onSubmit: login }) => {
       <button id='login-button' type='submit'>
         login
       </button>
+      <div>
+        <a href='/forgot_password'>Forgotten Password?</a>
+      </div>
     </form>
   )
 }
