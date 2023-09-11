@@ -2,12 +2,15 @@
 
 ## Available Scripts
 
+In the project directory, you need to run:
+```
+npm i
+```
+
 The app works with a custom and simple json-server. 
 
-In the project directory, you need to run:
-
 ### Server Start
-Open a new terminal and make sure that `json-server` is installed
+Open a new terminal and make sure that `json-server` is installed in the project folder. 
 
 When installed please run the following command:
 
@@ -16,6 +19,11 @@ json-server --port 3001 --watch db.json
 ```
 
 This will start a new instance on port `3001` To make sure its running simoply open `http://localhost:3001/registeredUser` To see verify that the contents are correct please open `db.json` inside the src folder and verify that the same information is displayed on the address above.
+
+If the server does not start run you can install a JSON server globally on your machine using the command:
+```
+npm install -g json-server
+```
 
 Once that is done please start the app by running the following:
 
